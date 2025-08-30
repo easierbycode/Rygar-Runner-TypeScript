@@ -62,7 +62,6 @@ k.scene("game", () => {
     k.destroy(gameControlsText);
   });
 
-  // const bgPieceWidth = 2880;
   const bgPieceWidth = 2544;
   const bgPieces = [
     k.add([k.sprite("chemical-bg"), k.pos(0, 0), k.opacity(0.8), k.scale(1.5)]),
